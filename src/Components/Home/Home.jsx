@@ -3,13 +3,13 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-white text-center p-5 bg-slate-900">
+      <h1 className="text-2xl md:text-4xl font-bold text-white text-center p-2 md:p-5 bg-slate-900">
         Welcome To the Chefs Table Cuisine{" "}
       </h1>
-      <article className="bg-slate-500 text-white text-2xl p-10 ">
-        <article className="p-3 ">
+      <article className="bg-slate-500 text-white md:text-2xl md:p-10 p-3 text-lg">
+        <article className="md:p-3 p-1">
       
-          <strong className="text-slate-950 text-3xl ">
+          <strong className="text-slate-950 md:text-3xl text-xl ">
             Chefs Table Cuisine </strong> is passionate about creating delicious meals that satisfy the taste
           Welcome to our meal restaurant website, where we take pride in
           providing our customers with a dining experience that's both
@@ -18,9 +18,9 @@ const Home = () => {
           the freshest ingredients in our dishes, prepared with care and
           attention to detail.<br></br>
         </article>
-        <article className="p-3 ">
+        <article className="md:p-3 p-1">
          
-          <strong className="text-slate-950 text-3xl">Our menu </strong> is
+          <strong className="text-slate-950 md:text-3xl text-xl">Our menu </strong> is
           designed to cater to a wide range of dietary needs and preferences,
           including vegetarian, vegan, gluten-free, and dairy-free options. Our
           chefs are passionate about creating dishes that are not only delicious
@@ -28,8 +28,8 @@ const Home = () => {
           whenever possible, working with local farmers and suppliers to ensure
           the freshest and highest quality produce and ingredients.<br></br>
         </article>
-        <article className="p-3 ">
-          <strong className="text-slate-950 text-3xl">Our restaurant </strong>
+        <article className="md:p-3 p-1">
+          <strong className="text-slate-950 md:text-3xl text-xl">Our restaurant </strong>
            offers a variety of settings to suit your mood and occasion. Whether
           you're looking for a quick lunch or a relaxing dinner with friends and
           family, we have the perfect spot for you. Our friendly and
