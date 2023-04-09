@@ -3,10 +3,10 @@ import React from "react";
 const Contacts = () => {
   return (
     <div>
-      <h1 className="text-5xl font-extrabold text-white text-center p-5 bg-slate-900">
+      <h1 className="text-4xl font-bold text-white text-center p-5 bg-slate-900">
         Chefs Table Cuisine Contacts{" "}
       </h1>
-      <article className="bg-slate-500 text-cyan-400 font-medium text-4xl p-10 ">
+      <article className="bg-slate-500 text-slate-950 font-medium text-2xl p-10 ">
         <article className="p-6 m-2">Welcome to our restaurant, where we are dedicated to providing our
         guests with an exceptional dining experience. Here's some information
         about us:</article> 

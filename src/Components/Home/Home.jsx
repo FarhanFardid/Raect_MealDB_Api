@@ -3,16 +3,14 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h1 className="text-5xl font-extrabold text-white text-center p-5 bg-slate-900">
+      <h1 className="text-4xl font-bold text-white text-center p-5 bg-slate-900">
         Welcome To the Chefs Table Cuisine{" "}
       </h1>
-      <article className="bg-slate-500 text-white text-4xl p-10 ">
+      <article className="bg-slate-500 text-white text-2xl p-10 ">
         <article className="p-3 ">
       
-          <strong className="text-yellow-800 text-5xl ">
-            Chefs Table Cuisine
-          </strong>
-          is passionate about creating delicious meals that satisfy the taste
+          <strong className="text-slate-950 text-3xl ">
+            Chefs Table Cuisine </strong> is passionate about creating delicious meals that satisfy the taste
           Welcome to our meal restaurant website, where we take pride in
           providing our customers with a dining experience that's both
           satisfying and memorable. We believe that good food should not only
@@ -22,7 +20,7 @@ const Home = () => {
         </article>
         <article className="p-3 ">
          
-          <strong className="text-yellow-800 text-5xl">Our menu </strong> is
+          <strong className="text-slate-950 text-3xl">Our menu </strong> is
           designed to cater to a wide range of dietary needs and preferences,
           including vegetarian, vegan, gluten-free, and dairy-free options. Our
           chefs are passionate about creating dishes that are not only delicious
@@ -31,8 +29,8 @@ const Home = () => {
           the freshest and highest quality produce and ingredients.<br></br>
         </article>
         <article className="p-3 ">
-          <strong className="text-yellow-800 text-5xl">Our restaurant</strong>
-          offers a variety of settings to suit your mood and occasion. Whether
+          <strong className="text-slate-950 text-3xl">Our restaurant </strong>
+           offers a variety of settings to suit your mood and occasion. Whether
           you're looking for a quick lunch or a relaxing dinner with friends and
           family, we have the perfect spot for you. Our friendly and
           knowledgeable staff are always on hand to assist you with any special

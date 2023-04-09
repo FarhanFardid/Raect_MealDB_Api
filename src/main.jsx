@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './Components/Root/Root'
@@ -25,7 +25,7 @@ const restaurant = createBrowserRouter([
       {
         path: '/canadianfood',
         element: <Canada></Canada>,
-        loader: ()=> fetch('https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian')
+        // loader: ()=> fetch('https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian')
         
       },
     

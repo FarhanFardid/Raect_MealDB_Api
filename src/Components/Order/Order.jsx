@@ -3,10 +3,10 @@ import React from "react";
 const Order = () => {
   return (
     <div>
-      <h1 className="text-5xl font-extrabold text-white text-center p-5 bg-slate-900">
+      <h1 className="text-4xl font-bold text-white text-center p-5 bg-slate-900">
         Chefs Table Cuisine's Order Guidelines{" "}
       </h1>
-      <article className="bg-slate-500 text-orange-900 font-semibold text-4xl p-16 ">
+      <article className="bg-slate-500 text-slate-900 font-medium text-2xl p-16 ">
        <article className="p-3 m-1"> Ordering food online has become increasingly popular in recent years,
         and for good reason - it's quick, convenient, and allows customers to
         enjoy their favorite meals from the comfort of their own homes. If
